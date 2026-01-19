@@ -248,3 +248,36 @@ nav button{
     border: 1px solid #533C72;
     padding: .625rem;
 }
+.footer{
+    background-image: url(./assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    padding: 7.5rem;
+}
+
+.social-footer{
+    display: flex;
+    gap: 2.5rem;
+}
+.social-footer-card{
+    display: flex;
+    gap: .5rem;
+}
+.social-footer-card p{
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: .6;
+}
+.footer{
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+}
+.footer p{
+    font-size: 1rem;
+    opacity: .6;
+}
