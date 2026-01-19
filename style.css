@@ -47,11 +47,15 @@ nav button{
 
 .about-us h2{
     color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: bold;
 }
 
 .about-us p{
     color: #FFFFFF;
+    font-size: 1rem;
     line-height: 1.25;
+    opacity: .8;
 }
 
 .about-us hr{
@@ -85,3 +89,64 @@ nav button{
 }
 
 /* why choose us */
+.why-choose-techwave{
+    background-color: #230E3D;
+    padding: 7.5rem 12.5rem;
+    display: grid;
+    gap: 2.5rem;
+
+}
+
+.why-choose-techwave h2{
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.cards>*{
+    background-color: rgba(53, 17, 101, 40);
+    border-radius: 2.5rem;
+    padding: 2.5rem;
+}
+.card1{
+    grid-area: card1;
+}
+.card2{
+    grid-area: card2;
+}
+.card3{
+    grid-area: card3;
+}
+.card4{
+    grid-area: card4;
+}
+.card5{
+    grid-area: card5;
+}
+.cards{
+    display: grid;
+    gap: 1.875rem;
+        grid-template-areas: 
+    "card1 card2 card2"
+    "card1 card3 card3"
+    "card4 card4 card5"
+    ;
+}
+
+.style{
+    color: #FFFFFF;
+    display: grid;
+    gap: 1rem;
+    align-content: center;
+}
+.style h3{
+    font-weight: bold;
+    font-size: 1.5;
+    color: #FFFFFF;
+}
+.style p{
+    font-size: 1rem;
+    opacity: .6;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
