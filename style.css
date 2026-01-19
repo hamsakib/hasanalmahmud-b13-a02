@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+nav{
+    background-color: #1A0B2E;
+    display: flex;
+    padding: 1.5rem 12.5rem;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(65, 37, 103, 1);
+}
+/* menu */
+.menu-bar{
+    display: flex;
+    gap: 2em;
+}
+.menu-bar li{
+    list-style: none;
+}
+.menu-bar li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+nav button{
+    all: unset; 
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    background: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+    color: #FFFFFF;
+    padding: 1rem 0.75rem;
+    border-radius: 10000px;
+    font-weight: 600;
+}
+
+/* about us */
+.about-us{
+    background-color: #1A0B2E;
+    padding: 3.125rem 12.5rem 7.5rem 12.5rem;
+    text-align: center;
+    display: grid;
+    gap: 5rem;
+}
+
+.about-us h2{
+    color: #FFFFFF;
+}
+
+.about-us p{
+    color: #FFFFFF;
+    line-height: 1.25;
+}
+
+.about-us hr{
+    color: #FFFFFf;
+    opacity: 0.1;
+    
+}
+
+.au-para{
+    display: grid;
+    gap: 2rem;
+}
+#note{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.note{
+
+}
+.note h2{
+    font-size: 4rem;
+    font-weight: 900;
+    color: #00FF88;
+}
+.note p{
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* why choose us */
