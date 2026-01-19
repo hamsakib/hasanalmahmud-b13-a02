@@ -235,8 +235,11 @@ nav button{
     align-items: center;
 }
 .social img{
-    width: 2.5;
-    height: 2.5;
+    width: 100%
+}
+.social-circle{
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     border: 1px solid #533C72;
     padding: .625rem;
