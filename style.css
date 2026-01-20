@@ -218,7 +218,7 @@ nav button{
 }
 .style h3{
     font-weight: bold;
-    font-size: 1.5;
+    font-size: 1.5rem;
     color: #FFFFFF;
 }
 .style p{
@@ -422,70 +422,24 @@ nav button{
     .note h2{
         font-size: 2rem;
     }
-    /* why choose us */
-.why-choose-techwave{
-    background-color: #230E3D;
-    padding: 2.5rem 1.25rem;
-    display: grid;
-    gap: 2.5rem;
-
-}
-
-.why-choose-techwave h2{
-    color: #FFFFFF;
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-}
-.cards>*{
-    background-color: rgba(53, 17, 101, 40);
-    border-radius: 2.5rem;
-    padding: 2.5rem;
-}
-.card1{
-    grid-area: card1;
-}
-.card2{
-    grid-area: card2;
-}
-.card3{
-    grid-area: card3;
-}
-.card4{
-    grid-area: card4;
-}
-.card5{
-    grid-area: card5;
-}
-.cards{
-    display: grid;
-    gap: 1.875rem;
+    /* why choose techwave */
+    .why-choose-techwave{
+        padding: 2.5rem 1.25rem;
+        display: grid;
+        gap: 2.5rem;
+    }
+    .why-choose-techwave h2{
+        font-size: 2rem;
+    }
+    .cards{
         grid-template-areas: 
-    "card1"
-    "card2"
-    "card3"
-    "card4"
-    "card5"
-    ;
-}
-
-.style{
-    color: #FFFFFF;
-    display: grid;
-    gap: 1rem;
-    align-content: center;
-}
-.style h3{
-    font-weight: bold;
-    font-size: 1.5;
-    color: #FFFFFF;
-}
-.style p{
-    font-size: 1rem;
-    opacity: .6;
-    font-weight: 400;
-    line-height: 1.5rem;
-}
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        ;
+    }
 /* three */
 .three{
     background-color: #1A0B2E;
