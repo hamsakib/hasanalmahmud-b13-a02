@@ -164,7 +164,6 @@ nav button{
     font-size: 1rem;
     font-weight: 400;
 }
-
 /* why choose us */
 .why-choose-techwave{
     background-color: #230E3D;
@@ -173,7 +172,6 @@ nav button{
     gap: 2.5rem;
 
 }
-
 .why-choose-techwave h2{
     color: #FFFFFF;
     font-size: 4rem;
@@ -209,7 +207,7 @@ nav button{
     "card4 card4 card5"
     ;
 }
-
+/* card style */
 .style{
     color: #FFFFFF;
     display: grid;
