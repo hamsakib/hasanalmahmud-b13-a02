@@ -37,6 +37,17 @@ nav button{
     padding: 1rem 0.75rem;
     border-radius: 10000px;
     font-weight: 600;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+}
+/* nav button effects */
+nav button:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(145, 0, 248, 0.35);
+  filter: brightness(1.08);
+}
+nav button:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 15px rgba(145, 0, 248, 0.25);
 }
 /* hamburger icon for mobile */
 .hamburger-btn{
@@ -107,6 +118,19 @@ nav button{
     padding: 1rem 0.75rem;
     border-radius: 10000px;
     font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+}
+/* btn1 effect */
+    .btn1:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(145, 0, 248, 0.35);
+    filter: brightness(1.08);
+}
+.btn1:active{
+    transform: translateY(0);
+    box-shadow: 0 6px 15px rgba(145, 0, 248, 0.25);
 }
 .btn2{
     all: unset; 
@@ -119,7 +143,34 @@ nav button{
     padding: 1rem 0.75rem;
     border-radius: 10000px;
     font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
 }
+/* btn2 effects */
+.btn2::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #00FF88;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s ease;
+    z-index: -1;
+}
+.btn2:hover{
+    color: #0B1F16;
+    transform: translateY(-2px);
+}
+.btn2:hover::before{
+    transform: scaleX(1);
+}
+.btn2:active{
+    transform: translateY(0);
+}
+
+
 /* about us */
 .about-us{
     background-color: #1A0B2E;
