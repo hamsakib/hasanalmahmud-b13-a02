@@ -506,9 +506,11 @@ nav button{
 }
 
 .social-footer{
-    display: grid;
+    padding: 1.5rem 4.5rem;
+    display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .social-footer-card{
     display: flex;
