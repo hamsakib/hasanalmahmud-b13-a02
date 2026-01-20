@@ -281,3 +281,122 @@ nav button{
     font-size: 1rem;
     opacity: .6;
 }
+
+@media screen and (max-width: 576px) {
+        /* about us */
+    .about-us{
+        padding: 2.5rem 1.25rem;
+        text-align: center;
+        display: grid;
+        gap: 2.5rem;
+    }
+
+    .about-us h2{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    /* .about-us p{
+        color: #FFFFFF;
+        font-size: 1rem;
+        line-height: 1.25;
+        opacity: .8;
+    } */
+
+    /* .about-us hr{
+        color: #FFFFFf;
+        opacity: 0.1;
+        
+    } */
+
+    /* .au-para{
+        display: grid;
+        gap: 2rem;
+    } */
+    #note{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+    }
+    .note{
+
+    }
+    .note h2{
+        font-size: 2rem;
+        font-weight: 900;
+        color: #00FF88;
+    }
+    .note p{
+        color: #FFFFFF;
+        opacity: 0.8;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    /* why choose us */
+.why-choose-techwave{
+    background-color: #230E3D;
+    padding: 2.5rem 1.25rem;
+    display: grid;
+    gap: 2.5rem;
+
+}
+
+.why-choose-techwave h2{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.cards>*{
+    background-color: rgba(53, 17, 101, 40);
+    border-radius: 2.5rem;
+    padding: 2.5rem;
+}
+.card1{
+    grid-area: card1;
+}
+.card2{
+    grid-area: card2;
+}
+.card3{
+    grid-area: card3;
+}
+.card4{
+    grid-area: card4;
+}
+.card5{
+    grid-area: card5;
+}
+.cards{
+    display: grid;
+    gap: 1.875rem;
+        grid-template-areas: 
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
+    ;
+}
+
+.style{
+    color: #FFFFFF;
+    display: grid;
+    gap: 1rem;
+    align-content: center;
+}
+.style h3{
+    font-weight: bold;
+    font-size: 1.5;
+    color: #FFFFFF;
+}
+.style p{
+    font-size: 1rem;
+    opacity: .6;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+
+}
