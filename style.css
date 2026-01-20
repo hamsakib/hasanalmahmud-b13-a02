@@ -72,6 +72,11 @@ nav button:active {
     position: relative;
     margin: 0 auto;
     width: 21.875rem;
+    transition: filter 0.3s ease;
+}
+/* visual effect animation for microphone */
+.hero-visual:hover{
+    filter: drop-shadow(0 0 5rem rgba(145, 0, 248, 0.45));
 }
 /* visual effect */
 .back{
@@ -169,8 +174,6 @@ nav button:active {
 .btn2:active{
     transform: translateY(0);
 }
-
-
 /* about us */
 .about-us{
     background-color: #1A0B2E;
@@ -427,6 +430,9 @@ nav button:active {
     }
     .hero-visual{
         width: 50%;
+    }
+    .hero-visual:hover{
+    filter: none;
     }
     .hero-visual img{
         max-width: 100%;
