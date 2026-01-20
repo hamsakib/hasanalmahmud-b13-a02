@@ -411,48 +411,16 @@ nav button{
         display: grid;
         gap: 2.5rem;
     }
-
     .about-us h2{
         font-size: 2rem;
-        font-weight: bold;
     }
-
-    /* .about-us p{
-        color: #FFFFFF;
-        font-size: 1rem;
-        line-height: 1.25;
-        opacity: .8;
-    } */
-
-    /* .about-us hr{
-        color: #FFFFFf;
-        opacity: 0.1;
-        
-    } */
-
-    /* .au-para{
-        display: grid;
-        gap: 2rem;
-    } */
     #note{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        justify-content: space-between;
-        align-items: center;
-    }
-    .note{
-
+        gap: 2rem;
     }
     .note h2{
         font-size: 2rem;
-        font-weight: 900;
-        color: #00FF88;
-    }
-    .note p{
-        color: #FFFFFF;
-        opacity: 0.8;
-        font-size: 1rem;
-        font-weight: 400;
     }
     /* why choose us */
 .why-choose-techwave{
