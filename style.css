@@ -12,6 +12,9 @@ nav{
     align-items: center;
     border-bottom: 1px solid rgba(65, 37, 103, 1);
 }
+.mobile-nav{
+    display: none;
+}
 /* menu */
 .menu-bar{
     display: flex;
@@ -283,6 +286,19 @@ nav button{
 }
 
 @media screen and (max-width: 576px) {
+    nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.25rem;
+        border-bottom: 1px solid rgba(65, 37, 103, 1);
+        background-color: #1A0B2E;
+    }
+    .mobile-nav img{
+        max-width: 8.5rem;
+    }
         /* about us */
     .about-us{
         padding: 2.5rem 1.25rem;
@@ -533,5 +549,7 @@ nav button{
     font-size: 1rem;
     opacity: .6;
 }
-
+.footer img{
+    max-width: 13.6875rem;
+}
 }
