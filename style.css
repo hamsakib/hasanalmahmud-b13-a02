@@ -225,11 +225,10 @@ nav button{
     font-weight: 400;
     line-height: 1.5rem;
 }
-
-/* three */
+/* section three (featured episodes & host) */
 .three{
     background-color: #1A0B2E;
-    padding: 7.5rem 12.5rem;
+    padding: 7.5rem 16.6667%;
     color: #FFFFFF;
     text-align: center;
 }
@@ -245,18 +244,14 @@ nav button{
 .v-cards{
     display: flex;
     gap: 1.875rem;
-    justify-content: space-between;
-
 }
 .v-card{
     background-color: #250D44;
-    width: 23.75rem;
-    height: 27.5rem;
+    max-width: 23.75rem;
+    min-width: 12rem;
     border-radius: 2rem;
     overflow: hidden;
     text-align: left;
-    display: grid;
-    justify-content: space-between;  
 }
 .v-card iframe{
   width: 100%;              
@@ -264,6 +259,8 @@ nav button{
 }
 .context{
     padding: 1.5rem;
+    display: grid;
+    gap: .75rem;
 }
 .context h5{
     font-size: 1.5rem;
@@ -278,7 +275,7 @@ nav button{
     align-items: center;
     gap: .25rem;
 }
-
+/* host */
 .host{
     padding: 7.5rem 0;
     display: grid;
@@ -293,11 +290,9 @@ nav button{
     align-items: center;
     gap: 1.5rem;
 }
-
 .about-host{
     display: grid;
     gap: 1rem;
-    
 }
 .about-host h3{
     font-size: 2rem;
@@ -307,22 +302,22 @@ nav button{
     color: #FFFFFF;
     opacity: .6;
 }
-
 .social{
     display: flex;
     gap: .5rem;
     align-items: center;
 }
 .social img{
-    width: 100%
+    width: 100%;
 }
 .social-circle{
     width: 2.5rem;
     height: 2.5rem;
-    border-radius: 50%;
     border: 1px solid #533C72;
-    padding: .625rem;
+    border-radius: 50%;
+    padding: .625rem ;
 }
+/* footer */
 .footer{
     background-image: url(./assets/footer-bg.png);
     background-repeat: no-repeat;
@@ -438,132 +433,59 @@ nav button{
         "card5"
         ;
     }
-/* three */
-.three{
-    background-color: #1A0B2E;
-    padding: 2.5rem 1.25rem;
-    color: #FFFFFF;
-    text-align: center;
-}
-.three-container{
-    display: grid;
-    gap: 2.5rem;
-    justify-content: center;
-    text-align: center;
-}
-.three h2{
-    color: #FFFFFF;
-    font-size: 2rem;
-    font-weight: bold;
-}
-.v-cards{
-    display: grid;
-    gap: 1rem;
-    justify-content: space-between;
+    /* section three (featured episodes & host) */
+    .three{
+        padding: 2.5rem 1.25rem;
+    }
+    .three h2{
+        font-size: 2rem;
+    }
+    .v-cards{
+        display: grid;
+        gap: 1rem;
+    }
+    /* host */
+    .host-section{
+        display: grid;
+        padding: 2.5rem 1.25rem;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+        gap: 1.5rem;
+    }
+    .about-host{
+        justify-items: center;
+    }
+    .about-host h3{
+        font-size: 2rem;
+    }
+    /* footer */
+    .footer{
+        background-image: url(./assets/footer-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: #FFFFFF;
+        padding: 2.5rem 1.25rem;
+    }
 
-}
-.v-card{
-    background-color: #250D44;
-    width: 23.75rem;
-    height: 27.5rem;
-    border-radius: 2rem;
-    overflow: hidden;
-    text-align: left;
-    display: grid;
-    justify-content: space-between;  
-}
-.v-card iframe{
-  width: 100%;              
-  height: 13.375rem;
-}
-.context{
-    padding: 1.5rem;
-}
-.context h5{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-.context p{
-    font-size: 1rem;
-    color: #FFFFFF;
-    opacity: .6;
-    line-height: 1.5rem;
-    display: flex;
-    align-items: center;
-    gap: .25rem;
-}
-
-.host{
-    display: grid;
-    gap: 2.5rem;
-}
-.host-section{
-    background-color: rgba(53, 17, 101, 40);
-    border-radius: 2.5rem;
-    display: grid;
-    padding: 2.5rem 1.25rem;
-    text-align: center;
-    align-items: center;
-    justify-items: center;
-    gap: 1.5rem;
-}
-
-.about-host{
-    display: grid;
-    gap: 1rem;
-    justify-items: center;;
-    
-}
-.about-host h3{
-    font-size: 2rem;
-    font-weight: bold;
-}
-.about-host p{
-    color: #FFFFFF;
-    opacity: .6;
-
-}
-
-.social{
-    display: flex;
-    gap: .5rem;
-    align-items: center;
-}
-.social img{
-    width: 100%
-}
-.social-circle{
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    border: 1px solid #533C72;
-    padding: .625rem;
-}
-.footer{
-    background-image: url(./assets/footer-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: #FFFFFF;
-    padding: 2.5rem 1.25rem;
-}
-
-.social-footer{
-    padding: 1.5rem 4.5rem;
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.social-footer-card{
-    display: flex;
-    gap: .5rem;
-}
-.social-footer-card p{
-    font-size: 1rem;
-    font-weight: 500;
-    opacity: .6;
-}
+    .social-footer{
+        padding: 1.5rem 4.5rem;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .social-footer-card{
+        display: flex;
+        gap: .5rem;
+    }
+    .social-footer-card p{
+        font-size: 1rem;
+        font-weight: 500;
+        opacity: .6;
+    }
+    /* footer */
 .footer{
     display: grid;
     gap: 2rem;
