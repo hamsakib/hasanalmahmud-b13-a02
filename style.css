@@ -120,46 +120,38 @@ nav button{
     border-radius: 10000px;
     font-weight: 600;
 }
-
 /* about us */
 .about-us{
     background-color: #1A0B2E;
-    padding: 3.125rem 12.5rem 7.5rem 12.5rem;
+    padding: 3.125rem 16% 7.5rem 16%;
     text-align: center;
     display: grid;
     gap: 5rem;
 }
-
+.au-para{
+    display: grid;
+    gap: 2rem;
+}
 .about-us h2{
     color: #FFFFFF;
     font-size: 4rem;
     font-weight: bold;
 }
-
 .about-us p{
     color: #FFFFFF;
     font-size: 1rem;
     line-height: 1.25;
     opacity: .8;
 }
-
 .about-us hr{
     color: #FFFFFf;
     opacity: 0.1;
-    
-}
-
-.au-para{
-    display: grid;
-    gap: 2rem;
 }
 #note{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.note{
-
+    gap: .75rem;
 }
 .note h2{
     font-size: 4rem;
